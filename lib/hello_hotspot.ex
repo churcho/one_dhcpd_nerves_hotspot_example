@@ -1,0 +1,2 @@
+defmodule HelloHotspot do
+end
