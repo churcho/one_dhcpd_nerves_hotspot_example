@@ -30,9 +30,10 @@ a hotspot running are:
 # your target dependencies list.
 defp deps(target) do
   [
-    {:nerves_runtime, "~> 0.6"},
+    # ...
     {:nerves_init_gadget, "~> 0.4", github: "nerves-project/nerves_init_gadget", branch: "one_dhcp"},
     {:nerves_network, github: "nerves-project/nerves_network", branch: "default_fix", override: true}
+    # ...
   ] ++ system(target)
 end
 ```
